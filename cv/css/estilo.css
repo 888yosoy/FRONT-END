@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oxygen", sans-serif;
+  background-image: url(../img/blue-pink-halftone-background_53876-99004.webp);
+  background-size: cover;
+
+  height: 100%;
+}
+header {
+  background-image: url(https://cdna.artstation.com/p/assets/images/images/009/068/908/large/martin-mahieu-5.jpg?1516938334);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /* border: 1px solid red; */
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.bordeimagen {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+h2 {
+  text-align: center;
+  background-color: rgba(245, 39, 12, 0.685);
+}
+
+li {
+  /* text-align: center; */
+}
+
+h4 {
+  /* text-align: center; */
+  font-weight: bold;
+  font-style: italic;
+  font-size: 23px;
+}
+
+.padre {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: inline-block;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.left-menu {
+  gap: 0;
+  width: 20%;
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.right-menu {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  /* border: 1px solid red; */
+  display: inline-block;
+}
+
+ul {
+  width: 100%;
+  padding: 0 0 0 20px;
+}
+
+.abuelo {
+  /* border: solid 1px royalblue; */
+  gap: 5px;
+  width: 70%;
+  padding: 0;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.tio {
+  border: 1px solid green;
+}
