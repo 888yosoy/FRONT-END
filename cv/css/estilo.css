@@ -22,7 +22,7 @@ header {
 h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 0px;
 }
 
 p {
@@ -92,6 +92,11 @@ ul {
   justify-content: center; */
 }
 
-.tio {
-  border: 1px solid green;
+.main-sobre-mi {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header-sobre-mi {
+  background-color: rgb(rgb(255, 163, 58)) !important;
 }

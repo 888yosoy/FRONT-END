@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: violet;
+  align-items: center;
+  height: 30px;
+  font-weight: bold;
+  justify-content: left;
+}
+
+main {
+  background-image: url(https://3.bp.blogspot.com/-IcRdXVUMRBM/VLZkJnxOKRI/AAAAAAALIIQ/vG2K-UPxtxk/s1600/ciudad-g%C3%B3tica-adictamente.jpg);
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  background-color: rgba(88, 255, 241, 0.59);
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 10px 10px 5px #58585875;
+  color: rgb(247, 247, 247);
+}
+
+section {
+  display: flex;
+  align-items: space-around;
+  padding: 50px 50px;
+}
+
+article {
+  width: 20%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.caja {
+  margin-top: 40px;
+  background-color: rgba(250, 250, 250, 0.7);
+  padding: 20px 10px;
+  width: 300px;
+  box-shadow: 10px 10px 10px #000000;
+}
+
+div img {
+  flex-wrap: nowrap;
+}
+
+div .imagen {
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  position: relative;
+  height: 100px;
+}
+
+.imga {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 70%;
+  left: 30%;
+}
+
+.fondo {
+  width: 100%;
+  height: 30%;
+}
+
+.fondo1 {
+  background-image: url(../img/batman.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fondo2 {
+  background-image: url(https://i.pinimg.com/564x/ad/3b/ab/ad3babef5467b756e5e725a47826aeba.jpg);
+  background-size: cover;
+  background-position-y: 85%;
+  background-repeat: no-repeat;
+}
+
+.fondo3 {
+  background-image: url("http://images3.memedroid.com/images/UPLOADED341/5d897d1a3f2d2.jpeg");
+  background-size: 120%;
+  background-position-y: 145%;
+  background-position-x: 45%;
+  background-repeat: no-repeat;
+}
+
+.perolata {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+h3 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  color: beige;
+}
+
+footer {
+  position: relative;
+  background-color: violet;
+  z-index: 1000000;
+  padding: 5px;
+  text-align: center;
+}
+
+body {
+  margin: 0 0;
+}
