@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+* {
+  font-family: "Oxygen", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 250px;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  color: beige;
+}
+.barra ul {
+  align-content: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 500px;
+  padding-right: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px 20px;
+  justify-content: space-evenly;
+  /* border: 1px solid greenyellow; */
+}
+
+.menu {
+  width: 45%;
+  flex-wrap: nowrap;
+}
+
+.menu-principal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.pizza1 {
+  display: flex;
+  width: 100%;
+  align-self: center;
+  position: relative;
+  overflow: hidden;
+  bottom: 10px;
+  z-index: -1;
+}
+.menu-secundario {
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-int {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.lista ol li {
+  margin: 10px;
+}
+
+.top {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.lista {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 25px;
+  max-width: 100%;
+}
+
+.pizza2 {
+  display: flex;
+  width: 35%;
+  height: 50%;
+  /* border: 1px solid red; */
+}
+
+.envio {
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  top: 10%;
+  align-self: center;
+  font-size: 30px;
+}
+
+.rojo {
+  max-width: 100%;
+  color: red;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.blanco {
+  max-width: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.podio {
+  display: flex;
+  /* border: 1px solid red; */
+  color: red;
+  font-weight: bold;
+  align-self: flex-start;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  font-size: 30px;
+  flex-wrap: nowrap;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barra2 ul {
+  list-style: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  align-content: space-around;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.logo {
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
