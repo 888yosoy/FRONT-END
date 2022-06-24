@@ -1,8 +1,586 @@
-article {
-  border: 1px solid red;
+* {
+  box-sizing: border-box;
 }
 
-p,
-span {
-  border: 1px solid red;
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3vw 1vw;
+  z-index: 10000;
+  top: 0;
+  font-size: 0.5rem;
+  position: sticky;
+}
+.grandes {
+  font-weight: lighter;
+  font-size: 0.7rem;
+}
+
+.select {
+  margin: 0 20px;
+  border-radius: 0 10px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.imagen {
+  /* border: 2px red solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(255, 195, 85);
+  position: sticky;
+  top: 0;
+  z-index: 11111110;
+  box-shadow: 3px 1px 5px 1px grey;
+}
+.imag1 {
+}
+
+.imagen img {
+  width: 40vh;
+  margin: 20px 0 0px 0px;
+}
+
+.navegacion ul {
+  display: flex;
+  /* border: 1px gold solid; */
+  margin: 10px;
+  list-style: none;
+  padding: 0 20;
+  color: white;
+}
+
+.navegacion ul li {
+  margin: 3vh;
+  font-size: 1rem;
+}
+
+.navegacion a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.celeste {
+  margin: 0;
+  background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 90px;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: -10px 0;
+}
+
+.celeste .divs-rebeldes {
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20vh;
+}
+.celeste .divs-rebeldes p {
+  border-radius: 15px;
+}
+
+.placer p {
+  font-size: 2.3rem;
+  display: flex;
+  padding: 0 0;
+  position: relative;
+  top: 10px;
+  background-color: aliceblue;
+  text-align: center;
+}
+.comederos p {
+  text-align: center;
+  background-color: rgb(255, 195, 85);
+  padding: 10px;
+}
+.comederos {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.descuento p {
+  width: fit-content;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.juguetes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.juguetes img {
+  width: 60px;
+  margin: 3vh 0 0 0;
+}
+
+.juguetes h2 {
+  margin: 0 0 2vh 0;
+  font-size: 3rem;
+}
+
+.destacado {
+  margin: 0vh 2vh;
+  text-decoration: none;
+  color: grey;
+}
+
+.juguetes-imagenes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 10vh 0;
+}
+
+.juguetes-imagenes p {
+  text-align: center;
+}
+.juguetes-imagenes img {
+  text-align: center;
+  /* border: 1px red solid; */
+  margin: 10vh 0 -10px 0;
+}
+
+.juguetes-imagenes .img-toy {
+  margin: 0 5vh;
+  /* border: 1px red solid; */
+}
+
+.p1 {
+  font-weight: bold;
+  color: rgb(87, 43, 1);
+  font-size: 1.1rem;
+}
+
+.p2 {
+  font-weight: bold;
+  color: rgb(255, 195, 85);
+  font-size: 1.1rem;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 5vh 0;
+}
+
+.contacto div {
+  margin: 1vh;
+}
+
+.telefono {
+  position: relative;
+}
+
+form {
+}
+
+.contacto h2 {
+  color: rgb(87, 43, 1);
+  font-size: 2.1rem;
+}
+
+.contacto input {
+  background-color: rgb(87, 43, 1);
+  color: white;
+  width: 70vh;
+  height: 7vh;
+  font-size: 0.8rem;
+  margin: 2vh;
+  border-radius: 20px;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0vh 5vh;
+}
+
+.contacto ::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+.botones button {
+  margin: 2vh 2vh 2vh 2vh;
+  width: 15vh;
+  height: 5vh;
+  border-radius: 15px;
+  border: 0px;
+  color: aliceblue;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.resetear {
+  background-color: grey;
+}
+
+.ingresar {
+  background-color: rgb(255, 195, 85);
+}
+
+.suscribite {
+  background-color: rgb(255, 195, 85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vh;
+}
+
+.suscribite div {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  font-size: 1rem;
+}
+
+.suscribite h3 {
+  font-weight: normal;
+}
+
+.suscribite i {
+  margin: 0vh 1.5vh;
+  font-size: 2rem;
+}
+
+.suscribite-input input {
+  height: 6vh;
+  min-width: 10vh;
+  width: 50vh;
+  max-width: 50vh;
+  border: 0px;
+  border-radius: 20px;
+  padding: 0 3vh;
+}
+
+.suscribite-input button {
+  height: 6vh;
+  width: 20vh;
+  border: 0px;
+  border-radius: 25px;
+  background-color: rgb(87, 43, 1);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.casi-final {
+  display: flex;
+  background-color: rgba(87, 43, 1, 1);
+  justify-content: space-between;
+  padding: 2vh 2vh;
+}
+
+.info-pie {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh;
+}
+.info-pie span {
+  font-size: 0.9rem;
+  font-weight: bold;
+  position: relative;
+  bottom: 1vh;
+}
+
+.info-pie a {
+  text-decoration: none;
+  color: rgb(87, 43, 1);
+  margin: 2vh;
+  color: aliceblue;
+  /* border: 1px white solid; */
+}
+.fa-phone {
+  margin: 0 1vh 0 0;
+  font-size: 2rem;
+  background-color: grey;
+  padding: 2vh;
+  border-radius: 40px;
+}
+
+.fa-envelope {
+  margin: 0 1vh 0 0;
+  font-size: 2rem;
+  background-color: grey;
+  padding: 2vh;
+  border-radius: 40px;
+}
+
+.info-pie i {
+}
+
+.fa-location-dot {
+  margin: 0 1vh 0 0;
+  font-size: 2rem;
+  background-color: grey;
+  padding: 2.1vh 2.7vh;
+  border-radius: 40px;
+}
+
+.logo-final {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 5vh;
+}
+
+.logo-final img {
+  background-color: rgb(255, 195, 85);
+  padding: 0vh 0vh;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 15px rgb(255, 195, 85);
+}
+
+footer {
+  display: flex;
+  color: white;
+  font-size: 0.8rem;
+  justify-content: center;
+  height: 4vh;
+  align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+  main .celeste {
+    background-position-y: 100px;
+    /* background-size: contain; */
+    background-attachment: fixed;
+    height: 65%;
+    /* background-repeat: no-repeat; */
+  }
+}
+
+@media screen and (max-width: 853px) {
+  .celeste {
+    background-attachment: fixed;
+    justify-content: center;
+    background-color: rgb(111, 219, 169);
+    justify-content: center;
+    padding: 0 0;
+    margin: 0 0;
+  }
+  .divs-rebeldes DIV {
+  }
+
+  .logo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .nav1 {
+    margin: 1px 0;
+    padding: 0 0;
+    font-size: 1rem;
+  }
+  .nav1 li span {
+    font-size: 3vh;
+  }
+  .suscribite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .divs-rebeldes {
+    width: 70%;
+    align-self: center;
+  }
+  .placer {
+  }
+}
+@media screen and (max-width: 650px) {
+  .celeste {
+    background-attachment: fixed;
+    justify-content: center;
+    background-color: rgb(111, 219, 169);
+    height: 20%;
+    justify-content: center;
+    padding: 0 0;
+    margin: 0 0;
+  }
+  header {
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+  }
+  .dd {
+    font-size: 0.1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    text-align: center;
+  }
+  .juguetes h2 {
+    font-size: 2rem;
+  }
+  .juguetes-imagenes .p2 {
+    position: relative;
+    left: 5px;
+  }
+
+  .contacto input {
+    width: 100%;
+    justify-items: center;
+    margin: 0 auto;
+  }
+  .botones {
+    position: relative;
+  }
+  .botones button {
+    justify-content: space-around;
+    margin: 0 5px;
+  }
+  .suscribite input {
+    width: 40vh;
+  }
+  .suscribite button {
+    font-size: 0.8rem;
+    width: 17vh;
+  }
+
+  .casi-final div {
+    margin: 20px;
+  }
+
+  .casi-final span {
+    font-size: 0.6rem;
+  }
+
+  .casi-final {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    align-items: center;
+    padding: 5vh 0 5vh 0;
+  }
+}
+/* .divs-rebeldes {
+    width: 70%;
+    align-self: center;
+    position: relative;
+    top: 90px;
+  }
+
+  .placer p {
+    text-align: center;
+  }
+  .descuento {
+    display: flex;
+    position: relative;
+    right: 80px;
+  }
+
+  .comederos p {
+    font-size: 0.8rem;
+  } */
+
+@media screen and (max-width: 550px) {
+  .placer {
+    font-size: 1.5rem;
+  }
+
+  .contacto input {
+    width: 120%;
+    position: relative;
+    right: 30px;
+  }
+
+  .suscribite i {
+    font-size: 1rem;
+  }
+  .suscribite h3 {
+    font-size: 1rem;
+  }
+  .suscribite input {
+    width: 45vh;
+  }
+  .suscribite button {
+    font-size: 0.7rem;
+    width: 15vh;
+  }
+
+  .casi-final .info-pie span {
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .casi-final .logo-final img {
+    width: 100px;
+  }
+
+  footer {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .suscribite button {
+    width: 12vh;
+    font-size: 0.6rem;
+  }
+  .suscribite input {
+    width: 40vh;
+  }
+  .placer p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .suscribite button {
+    width: 10vh;
+    font-size: 0.4rem;
+  }
+  .suscribite input {
+    width: 20vh;
+    font-size: ;
+  }
+  body {
+    width: 100vh;
+  }
 }
